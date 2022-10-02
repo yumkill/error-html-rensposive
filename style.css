@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  padding: 250px;
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+  background-image: linear-gradient(to right, #434343 5%, black 100%);
+}
+
+main {
+  background-color: #eeeeee;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+  background-color: #ff2e63;
+  padding: 20px 40px;
+  width: 100%;
+}
+
+nav ul li {
+  float: left;
+  color: white;
+  padding: 0px 20px;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 22px 22px;
+}
+
+nav ul li:hover {
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: white;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.slogan {
+  padding: 20px 40px;
+  position: relative;
+}
+
+#kata-slogan {
+  padding-right: 25%;
+  padding-top: 10%;
+  padding-bottom: 9%;
+  text-align: right;
+}
+
+#people {
+  position: flex;
+  justify-content: left;
+}
+
+#people img {
+  width: 25%;
+  /* text-align: left; */
+  padding-left: 400px;
+  padding-top: 10px;
+}
+
+footer {
+  background-color: #08d9d6;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.lokasi > p {
+  font-size: 16px;
+}
+
+footer > p {
+  color: white;
+  font-size: 18px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapText{
+    float: right;
+    padding: 10%;
+}
+
+.foto-banner{
+    width: 43%;
+    
+}
+
+.blockquote {
+    padding: 20px;
+}
+
+.author{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quote {
+    font-size: 16px;
+    max-width: 400px;
+    line-height: 1.4;
+    font-style: italic;
+}
+
+figure img {
+  width: 200px;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+#konten-utama {
+  float: right;
+  width: 75%;
+}
+
+aside {
+  margin-top: 20px;
+  margin-left: 40px;
+  float: left;
+  width: 22%;
+}
+
+aside.card {
+  margin-bottom: 60px;
+}
+
+.foto-profil {
+  margin: 30px;
+  border-radius: 100%;
+  border: 5px solid #fff;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.biodata {
+  font-weight: 800;
+  padding-top: 5vh;
+}
+
+.slogan-biodata {
+  padding: 10px 30px;
+  font-size: 14px;
+}
+
+.lokasi {
+  padding: 40px;
+  margin-top: 20vh;
+}
+
+#skill {
+  padding: 20px 20px;
+}
+
+.menu {
+  padding: 20px 40px;
+}
+
+#kontak-sosmed {
+  display: relative;
+  margin-top: 80vh;
+}
+
+.kontak {
+  margin-top: 100vh;
+  position: flex;
+  justify-content: center;
+  margin: 10px 20px;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.kontak h2 {
+  padding: 60px;
+  margin-bottom: 40px;
+}
+
+.kontak article {
+  padding-bottom: 40px;
+}
+
+button {
+  font-family: "Quicksand", sans-serif;
+  background-color: #ff2e63;
+  border-radius: 50px;
+  border: none;
+  padding: 20px 60px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 100px;
+}
+
+button:hover {
+  background-color: #08d9d6;
+  font-weight: bolder;
+}
+
+/* CSS PROGRESS BAR */
+
+p {
+  color: #525252;
+  font-size: 12px;
+}
+.Count:after {
+  content: "%";
+}
+.skillbar-wrapper {
+  margin: 1.5em auto;
+  max-width: 960px;
+}
+
+.skillbar {
+  position: relative;
+  margin-bottom: 15px;
+  width: 100%;
+  background: #eee;
+  height: 35px;
+  border-radius: 3px;
+}
+
+.skillbar-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #fff;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  margin: 0;
+}
+
+.skillbar-title span {
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  height: 35px;
+  line-height: 35px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.skillbar-bar {
+  height: 35px;
+  width: 0%;
+  border-radius: 3px;
+  transition: 500ms linear;
+  transition-property: width, background-color;
+}
+
+.skill-bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 11px;
+  height: 35px;
+  line-height: 35px;
+  color: rgba(0, 0, 0, 0.4);
+  transition: color 500ms ease-out;
+}
+
+/* Social Link */
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links a {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+  margin: 0 30px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.5s;
+}
+
+.social-links a .fab {
+  font-size: 30px;
+  line-height: 80px;
+  position: relative;
+  z-index: 10;
+  transition: color 0.5s;
+}
+
+.social-links a::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: -90px;
+  left: 0;
+  background: #000;
+  background: #ff2e63;
+  position: absolute;
+  transition: 0.5s;
+}
+
+.social-links a:hover::after {
+  top: 0;
+}
+
+.social-links a:hover .fab {
+  color: #fff;
+}
+
+.social-links a:hover {
+  transform: translateY(-10px);
+}
+
+.center {
+  text-align: center;
+}
+
+@media screen and (max-width: 513px) {
+    aside {
+        height: 20vh;
+    }
+ }
